@@ -1,7 +1,7 @@
 from nameProcessing import numeScurte
 
-nume=input("Scrie numele (separate prin ,): ")
+nume=input("Scrie numele (separate prin ;): ")
 
-lista=nume.split(",")
+lista=nume.split(";")
 
-print(",".join(numeScurte(lista)))
+print(";".join(numeScurte(lista)))
